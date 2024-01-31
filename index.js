@@ -31,7 +31,7 @@ mongoose
 
 
 // Configure CORS dynamically based on the environment
-const allowedOrigins = ['http://localhost:3001', 'https://your-production-url.com'];
+const allowedOrigins = ['http://localhost:3001', 'https://cyan-mysterious-fossa.cyclic.app'];
 app.use(cors({
   origin: function (origin, callback) {
     if (!origin || allowedOrigins.includes(origin)) {
